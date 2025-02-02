@@ -1,0 +1,69 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f5b7b1; /* Soft pink background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 32px;
+    color: #ff66b2;
+    margin-bottom: 20px;
+  }
+  
+  .heart {
+    font-size: 60px;
+    color: #ff66b2;
+    margin-bottom: 30px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .yes-btn {
+    background-color: #ff66b2;
+    color: white;
+  }
+  
+  .no-btn {
+    background-color: #ffcccc;
+    color: #ff6666;
+  }
+  
+  .yes-btn:hover {
+    background-color: #ff3385;
+  }
+  
+  .no-btn:hover {
+    background-color: #ff9999;
+  }
+  
